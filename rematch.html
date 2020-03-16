@@ -7,8 +7,7 @@ let url = document.referrer,
 if(!ua.match(regex)){    
   if(url.match('/?m=1')){
     var redirectUrl = url.replace('?m=1','?m=0');
-      alert(redirectUrl);
-   window.location.replace(redirectUrl);
+      window.location.replace(redirectUrl);
   }
 }
 </script>
