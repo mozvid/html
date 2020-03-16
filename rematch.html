@@ -8,7 +8,7 @@ if(!ua.match(regex)){
   if(url.match('/?m=1')){
     var redirectUrl = url.replace('?m=1','?m=0');
       document.write(redirectUrl);
-      window.top.location.href(redirectUrl);
+      window.top.location.replace(redirectUrl);
   }
 }
 </script>
